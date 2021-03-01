@@ -1,0 +1,24 @@
+---
+- name: ensure python3
+  become: yes
+  apt:
+    name: python3
+    state: latest
+
+- name: ensure python3-pip
+  become: yes
+  apt:
+    name: python3-pip
+    state: latest
+
+- name: ensure python3-dev
+  become: yes
+  apt:
+    name: python3-dev
+    state: latest
+
+- name: ensure gcc
+  become: yes
+  apt:
+    name: gcc
+    state: latest

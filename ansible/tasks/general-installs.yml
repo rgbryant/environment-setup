@@ -1,0 +1,13 @@
+---
+- name: ensure vim
+  become: yes
+  apt:
+    name: vim
+    state: latest
+
+- name: ensure curl
+  become: yes
+  apt:
+    name: curl
+    state: latest
+

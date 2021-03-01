@@ -1,0 +1,8 @@
+---
+- name: setup lenovo laptop
+  hosts: rgb-lenovo
+  remote_user: rgb
+
+  tasks:
+  - import_tasks: tasks/general-installs.yml
+  - import_tasks: tasks/python-dev-tools.yml
