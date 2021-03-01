@@ -6,3 +6,4 @@
   tasks:
   - import_tasks: tasks/general-installs.yml
   - import_tasks: tasks/python-dev-tools.yml
+  - import_tasks: tasks/terminal-setup-files.yml

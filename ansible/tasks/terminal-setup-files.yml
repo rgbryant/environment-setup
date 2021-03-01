@@ -1,0 +1,10 @@
+---
+- name: copy .bashrc
+  copy:
+    src: ../files/.bashrc
+    dest: ~/.bashrc
+
+- name: copy .vimrc
+  copy:
+    src: ../files/.vimrc
+    dest: ~/.vimrc 
