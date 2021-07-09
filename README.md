@@ -7,5 +7,5 @@ Generate ssh keys
 Upload ssh keys to github  
 ssh-copy-id to yourself  
 clone the repo  
-run install-ansible.sh from repo  
-run ansibleize-<foo>.sh from reop  
+run basic-setup.sh from repo  
+run ansibleize-foo.sh from reop  
